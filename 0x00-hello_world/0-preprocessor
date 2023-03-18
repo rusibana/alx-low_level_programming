@@ -1,4 +1,2 @@
 #!/bin/bash
-CFILE=$CFILE
 cpp -P $CFILE -o c
-
