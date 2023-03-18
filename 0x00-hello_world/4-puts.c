@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main:starting
+ * main - starting
  * Descriptoin: prints a message using puts
  * Return:end code
  */
