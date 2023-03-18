@@ -2,7 +2,6 @@
 
 /**
  * main:starting
- * 
  * return: end code
  */
 int main(void)
