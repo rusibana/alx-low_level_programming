@@ -1,25 +1,25 @@
 #include <stdio.h>
 
-/*
- * main - entry point
+/**
+ * main - Entry point
  *
- * Return: Always 0 for successful
- *
- * */
-int main(void){
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
 char lowercase = 'a';
 char uppercase = 'Z';
 
-while(lowercase <= 'z')
+while (lowercase <= 'z')
 {
 putchar(lowercase);
 lowercase++;
 }
-putchar('\n');
-while(uppercase <= 'Z')
+while (uppercase <= 'Z')
 {
 putchar(uppercase);
 uppercase++;
 }
+putchar('\n');
 return (0);
 }
